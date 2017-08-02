@@ -1,0 +1,127 @@
+body{
+	background:#fff;
+	color: rgb(51, 51, 51);}
+
+#wrapper{
+		width: 1000px;
+		height: 10px;
+		margin: 0px auto;}
+		
+		.link-box{
+		position: relative;
+		width:195px;
+		height:195px;
+		text-align:center;
+		line-height:195px;
+		cursor:pointer;}
+		
+		.link-box a{
+		text-transform: uppercase;
+		color:#808080;}
+		.icon-top-nav-shop-gui{
+		font-size: 48px;
+		position: absolute;
+		top: 130px;
+		left: 50%;
+		margin-left: -26px;
+		color:#808080;
+		}
+		.link-box a:hover{
+		text-decoration: none;}
+		
+		#container{
+		width: 1000px;}
+		
+		.clearer{
+		clear:both;}
+		
+		#left-nav{
+		position: fixed;
+		top:0px;
+		left: 0px;
+		display:none;
+		width: 185px;
+		height:560px;}
+		
+		#left-nav ul{
+			list-style:none;
+			padding-top: 35px;}
+		.box-lnk-left-nav{
+			position: relative;
+			margin-bottom: 35px;
+			cursor:pointer;
+			width:50px;}
+		.icon-left-nav-shop-gui{
+			background:#fff;
+			font-size:25px;}
+		.left-link-txt{
+			display:none;
+			position:absolute;
+			top: 2px;
+			left:0px;
+			z-index:-1;}		
+		.normal{
+		color:#eee;}
+		
+		.active{
+		color:#808080;}
+		
+		#left-nav a:hover{
+			color:#808080;}
+		
+		.page{
+		margin-bottom: 60px;
+		padding-bottom: 30px;
+		border-bottom: 1px dashed #B0305B;}
+		#p5{
+			border: none;}
+		.teaser{
+			margin-bottom:0px;}
+		.teaser .list-group-item,.complete .list-group-item{
+		border: none;}		
+		.heading-paragraph{
+			display: block;
+			margin-bottom: 15px;
+		}
+		.paragraph{
+			margin-left: 30px;}
+		.more{
+			width: 110px;
+			color: #808080;
+			margin-left: 45px;}
+		.more:hover{
+			cursor:pointer;}
+		blockquote{
+			border-left: 4px solid #EEEEEE;
+			padding: 10px 20px;
+			margin-bottom: 20px;
+			color: #337AB7;}
+		#curent-page:before{
+			position: absolute;
+			display: block;
+			height: 2px;
+			width: 20px;
+			content: " ";
+			background: #333333;
+			top: 50%;
+			margin-top: -1px;}
+		#curent-page{
+			position: relative;
+			font-size: 22px;
+			padding-left: 20px;
+			margin: 20px 0px 10px;
+			text-transform: uppercase;}
+		#footer4 h2, #footer4 p, #footer3 h2, #footer2, #footer{
+			color:rgb(213, 220, 206);} 
+		#backToTopBtn{
+			display: block;
+			border: 0px none;
+			border-radius: 0px;
+			background: none;
+			box-shadow:none;
+			color: rgb(51, 51, 51);}
+		#backToTopBtn span{
+			font-size: 22px;
+			font-weight: 100;}
+			
+			

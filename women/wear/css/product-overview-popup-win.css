@@ -1,0 +1,112 @@
+#product-overview-popup-win{
+	width: 694px;
+	left: 50%;
+	bottom: 2px;
+	margin-left: -250px;
+	z-index: 2010;
+}
+
+#title-productoverviewwin{
+	text-align: center;
+	color: #333333;
+	border-bottom: 1px dashed #a4a4a4;
+	padding-bottom: 10px;}
+
+.col-productoverviewwin{
+	padding-top:20px;
+	width:50%;
+	float:left;}
+
+#price-productoverviewwin{
+	line-height:38px;
+	font-size: 38px;
+	padding-top: 10px;}
+	
+#wrapcolor-productoverviewwin{
+	padding-top:35px;}
+
+#vatandshipping-productoverviewwin, #colorlabel-productoverviewwin{
+	color: #919191;}
+
+#color-productoverviewwin{
+	font-weight:bold;}
+	
+.color-productoverviewwin{
+	width: 13px;
+	height: 13px;
+	background: red;
+	border-radius: 50%;
+	cursor: pointer;
+	float:left;
+	margin-right:8px;}
+	
+#sizes-productoverviewwin{
+	margin-top:45px;
+	background: #eee;
+	border-top: 1px solid #919191;
+	border-bottom: 1px solid #919191;
+	border-left: 1px solid #919191;
+	width: 145px;
+	height:38px;}
+	
+.size-productoverviewwin{
+	float:left;
+	width:36px;
+	height: 36px;
+	border-right: 1px solid #919191;
+	cursor: pointer;
+	text-align: center;
+	line-height:36px;}
+
+.size-productoverviewwin:hover{
+	border: 1px solid #000;}
+	
+
+
+#amount-productoverviewwin{
+	margin-top:20px;
+	border-top: 1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	width:109px;}
+	
+.amountitem-productoverviewwin{
+	float:left;
+	line-height: 36px;
+	text-align: center;
+	width:36px;
+	border-right:1px solid #e1e1e1;
+	cursor:pointer;}
+
+#curentamount-productoverviewwin{
+	font-weight:bold;}
+	
+#addtocartbtn-productoverviewwin{
+	margin-top: 45px;
+	padding:15px 0px;
+	border-radius: 0;
+	width: 100%;
+	text-transform: uppercase;
+	background:#B0305B;
+	color:#fff;
+	border:none;}
+
+
+
+#addtocartbtn-productoverviewwin:hover{
+	background:#B9D4DF;}
+	
+#carousel-productoverviewwin{
+	padding-bottom: 20px;}
+
+#carousel-productoverviewwin .carousel-indicators{
+	bottom:0px;}
+
+#carousel-productoverviewwin .carousel-indicators li{
+	border-color:#B0305B;}
+
+#carousel-productoverviewwin .carousel-indicators li.active{
+	background-color: #B0305B;}
+
+#carousel-productoverviewwin .carousel-control{
+	background:none !important;}	

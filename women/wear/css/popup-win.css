@@ -1,0 +1,17 @@
+.popup-win{
+	position: fixed;
+	z-index: 10;
+	background: #FFFFFF;
+	border-top: 1px solid #E5E5E5;
+	border-left: 1px solid #E5E5E5;
+	padding: 15px;
+	color: #4c4848;
+	box-shadow: 3px 3px 0.5px 0.5px #B0305B;
+	display:none;	
+}
+
+.closebtn-popupwin{
+	float: right;
+	background: none;
+	border: none;}
+	

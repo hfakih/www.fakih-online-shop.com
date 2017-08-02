@@ -1,0 +1,56 @@
+/*register window css begin*/
+	
+	#register-win{
+	position: fixed;
+	width: 500px;
+	height: 500px;
+	z-index: 10;
+	top: 50px;
+	left: 50%;
+	margin-left: -250px;
+	background: #FFFFFF;
+	border-top: 1px solid #E5E5E5;
+	border-left: 1px solid #E5E5E5;
+	padding: 15px;
+	color: #4c4848;
+	box-shadow: 3px 3px 0.5px 0.5px #B0305B;
+	display: none;}
+	#close-btn-register-win{
+	float: right;
+	background: none;
+	border: none;}
+#icon-close-btn-register-win{
+	font-size: 22px;
+	color: #B0305B;}
+#form-register-win{
+	padding-right:10px;
+	overflow-y: scroll;
+	height: 420px;}
+.form-control-form-register-win{	
+	border-radius: 0px;}
+.form-control-form-register-win:focus{	
+	box-shadow: 0px 0px 1px 1px rgba(149, 48, 86,.50) !important;
+	border-color: rgba(149, 48, 86,.50);}
+#send-btn-form-register-win{
+	width: 100%;
+	background: #B0305B;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0px;}
+
+.label-checkbox-form-register-win{
+	font-weight: 100;}
+.label-ep-form-register-win{
+	text-transform: uppercase;}
+#cancel-btn-form-register-win{
+	width: 100%;
+	background: none;
+	border-color: #B0305C;
+	margin-top: 20px;
+	border-radius: 0px;
+	color: #B0305C;}
+#cancel-btn-form-register-win:hover{
+	border-color: #B9D4DF;
+	color: #B9D4DF;}
+	
+	/*register window css end*/
